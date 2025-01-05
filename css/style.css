@@ -503,7 +503,7 @@ html p a:hover {
 }
 
 .thumbnail-2 .caption .list-inline {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 @media (min-width: 1200px) {
@@ -1118,7 +1118,7 @@ ol {
 }
 
 .list-inline-mod-1 li a {
-	font-size: 18px;
+	font-size: 30px;
 	font-family: "Roboto Slab", serif;
 	font-weight: 700;
 }
@@ -1939,7 +1939,7 @@ hr {
 }
 
 .bg-subscribe {
-	background-image: url(../images/index-11.jpg);
+	background-image: url(../images/1920x750/banner.png);
 }
 
 .bg-subscribe * {
@@ -1947,11 +1947,11 @@ hr {
 }
 
 .bg-about {
-	background-image: url(../images/1920x750/partque_1.JPG);
+	background-image: url(../images/1920x750/banner.png);
 }
 
 .bg-services {
-	background-image: url(../images/services-1.jpg);
+	background-image: url(../images/1920x750/banner.png);
 }
 
 .bg-client {
@@ -1963,7 +1963,7 @@ hr {
 }
 
 .bg-typography {
-	background-image: url(../images/typography-1.jpg);
+	background-image: url(../images/1920x750/banner.png);
 }
 
 .bg-extra {
@@ -11248,7 +11248,7 @@ a.fa-shopping-cart,
 }
 
 .ui-to-top.active {
-	transform: translateY(0);git
+	transform: translateY(0);
 }
 
 /*
