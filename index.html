@@ -17,14 +17,15 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
-  <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
+  
 </head>
 
 <body>
@@ -110,31 +111,34 @@
                 
               </div>
             </div>-->
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/1920x750/fachada_1.JPG">
-              <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/1920x750/partque-3.jpg">
-              <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/1920x750/T1-fachada-dia.jpg">
-              <div class="swiper-slide-caption"></div>
+            <div class="swiper-wrapper">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/1920x750/fachada_1.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                  <img src="images/1920x750/partque-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                  <img src="images/1920x750/T1-fachada-dia.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
             </div>
           </div>
-          <!-- Swiper Pagination-->
-          <div class="swiper-pagination"></div>
-        </div>
       </section>
     </header>
     <!-- Page Content-->
     <main class="page-content">
       <section class="section">
         <div class="container">
-          <h2>Informacion Importante</h2>
+          <h2>Informacion al Turista</h2>
           <hr>
-          <p class="h5 fw-l">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br
-              class="d-none d-lg-inline">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
-          <div class="row row-60 clearleft-custom offset-custom-2">
+          <p class="h5 fw-l">Cabaña Las Toribias<br
+              class="d-none d-lg-inline">nota informativa tu agenda cabaña las toribias con todo lo que tenes que conocer de merlo san luis </p>
+              <br><br>
+
+              <div class="row row-60 clearleft-custom offset-custom-2">
             <div class="col-12 col-md-6 col-xl-3">
               <div class="thumbnail thumbnail-mod-1">
                 <a href="https://www.google.com/maps/search/Turismo+Merlo/@-32.3429,-65.0141,17z?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"
@@ -227,6 +231,7 @@
   <!-- Java script-->
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
+  
 </body>
 
 </html>

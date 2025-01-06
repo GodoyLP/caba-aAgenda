@@ -3191,7 +3191,7 @@ blockquote {
 }
 
 .section-inset-3 {
-	padding-top: 0;
+	padding-top: 60px;
 }
 
 .section-inset-4 {
@@ -10538,7 +10538,7 @@ a.fa-shopping-cart,
 	margin: 0 auto;
 }
 
-.swiper-slide {
+.carousel-item {
 	-webkit-flex-shrink: 0;
 	-ms-flex: 0 0 auto;
 	flex-shrink: 0;
