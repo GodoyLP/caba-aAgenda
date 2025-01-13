@@ -1834,7 +1834,7 @@ hr {
 .bg-accent .btn-success:hover {
 	background-color: #fff;
 	border-color: #fff;
-	color: #82c434;
+	/*color: #82c434;*/
 }
 
 .bg-accent a:focus {
@@ -7981,6 +7981,8 @@ img.mfp-img {
 /*
 * @subsection General Styles
 */
+
+
 .rd-navbar-wrap, .rd-navbar-static .rd-navbar-dropdown,
 .rd-navbar-static .rd-navbar-megamenu, .rd-navbar-fullwidth .rd-navbar-dropdown,
 .rd-navbar-fullwidth .rd-navbar-megamenu, .rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-fixed .rd-navbar-search .form-wrap {
@@ -10617,6 +10619,19 @@ a.fa-shopping-cart,
 .swiper-button-next:hover {
 	opacity: 1;
 }
+
+.flex-resenia{
+	align-items: center;
+
+}
+.resenia{
+ color: white;
+ background-color: #282E3E;
+ border-radius: 5px;
+ width: 60%;
+ height: 20%;
+ }
+
 
 @media (min-width: 768px) {
 	.swiper-button-prev,
