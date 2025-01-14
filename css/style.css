@@ -1,4 +1,9 @@
-@charset "UTF-8";
+@charset "UTF-8";n
+
+
+.decoration{
+	text-decoration: none;
+}
 /*
 * Trunk version 2.0.1
 */
@@ -8428,6 +8433,7 @@ img.mfp-img {
 
 .rd-navbar-static .rd-navbar-nav > li.focus > a, .rd-navbar-static .rd-navbar-nav > li > a:hover, .rd-navbar-static .rd-navbar-nav > li.active > a, .rd-navbar-fullwidth .rd-navbar-nav > li.focus > a, .rd-navbar-fullwidth .rd-navbar-nav > li > a:hover, .rd-navbar-fullwidth .rd-navbar-nav > li.active > a {
 	background-color: transparent;
+	
 }
 
 .rd-navbar-static .rd-navbar-nav > li.focus > a:after, .rd-navbar-static .rd-navbar-nav > li > a:hover:after, .rd-navbar-static .rd-navbar-nav > li.active > a:after, .rd-navbar-fullwidth .rd-navbar-nav > li.focus > a:after, .rd-navbar-fullwidth .rd-navbar-nav > li > a:hover:after, .rd-navbar-fullwidth .rd-navbar-nav > li.active > a:after {
@@ -9000,6 +9006,7 @@ img.mfp-img {
 	margin: -5px -40px -5px -15px;
 	font-weight: 400;
 	padding: 5px 40px 5px 15px;
+	
 }
 
 .rd-navbar-fixed .rd-navbar-nav p > a:hover,
@@ -9012,6 +9019,7 @@ img.mfp-img {
 .rd-navbar-fixed .rd-navbar-nav li,
 .rd-navbar-sidebar .rd-navbar-nav li {
 	position: relative;
+	text-decoration: none;
 }
 
 .rd-navbar-fixed .rd-navbar-nav li li > a,
@@ -10481,6 +10489,7 @@ a.fa-shopping-cart,
 	/* Fix of Webkit flickering */
 	z-index: 1;
 	background-image: url("../images/1920x750/carrusel_fondo.png");
+	background-size: 100%;
 }
 
 .swiper-container-no-flexbox .swiper-slide {
@@ -11181,7 +11190,10 @@ a.fa-shopping-cart,
 @media (min-height: 500px) and (max-height: 630px) and (min-width: 768px) and (max-width: 1199px) {
 	.swiper-container {
 		height: 850px !important;
+		
 	}
+
+	
 }
 
 .swiper-slider {
@@ -11268,16 +11280,16 @@ a.fa-shopping-cart,
 	transform: translateY(0);
 }
 
-/*
+
 .mobile .ui-to-top,
 .tablet .ui-to-top {
 	display: none !important;
-}*/
+}
 
 @media (min-width: 576px) {
 	.ui-to-top {
 		right: 40px;
-		bottom: 40px;
+		bottom: 60px;0
 	}
 }
 
