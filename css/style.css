@@ -1335,11 +1335,12 @@ address dl {
 	}
 }
 
+/*
 .mobile .jumbotron-mod-1 p,
 .mobile .jumbotron-mod-1 .btn-group-variant {
 	display: none;
 }
-
+*/
 .btn-group-variant {
 	transform: translateY(-30px);
 	margin-bottom: -30px;
@@ -11182,10 +11183,10 @@ a.fa-shopping-cart,
 .desktop .swiper-button:hover .preview__img:nth-child(3) {
 	transition-delay: 0.4s;
 }
-
+/*
 .mobile .preview, .tablet .preview {
 	display: none;
-}
+}*/
 
 @media (min-height: 500px) and (max-height: 630px) and (min-width: 768px) and (max-width: 1199px) {
 	.swiper-container {
@@ -11241,10 +11242,10 @@ a.fa-shopping-cart,
 		background-position: center center;
 	}
 }
-
+/*
 .mobile .swiper-pagination {
 	display: none;
-}
+}/*
 
 /*
 * @subsection   ToTop
